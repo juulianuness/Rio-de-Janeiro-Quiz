@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Carioca Quiz</title>
+        <meta name=" description" corrent="Um quis interativo para conhecimentos do RJ">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo para conhecimentos do RJ</h1>
+            <P> Teste seus conhecimentos sobre a cidade maravilhosa</P>
+        </header>
+
+        <main>
+            <!--Introcução-->
+            <section>
+                <h2> Sobre esse quiz: </h2>
+                <p> Este quiz foi desenvolvido par testar seus conhecimentos sobre o <strong>Rio de Janeiro</strong </p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo multipla escolha, texto e perguntas de data. Desafie-se com esse quiz sobre o <abbr title="Cidade do Rio de Janeiro">RJ</abbr>!</p>
+
+            </section>
+           
+
+            <!--Pergunta 1 - multipla escolha-->
+            <section>
+                <h2> Pergunta 1: Qual a capital do Rio de Janeiro? </h2>
+                <form>
+                    <input type="radio" value="Saquarema" id="perg1opA" name="Pergunta1">
+                    <label for="perg1opA">Saquarema</label><br>
+
+                    <input type="radio" value="Resende" id="perg1opB" name="Pergunta1">
+                    <label for="perg1opB">Resende</label><br>
+
+                    <input type="radio" value="Rio de Janeiro" id="perg1opC" name="Pergunta1">
+                    <label for="perg1opC">Rio de Janeiro</label><br>
+
+                    <input type="radio" value="Duque de Caxias" id="perg1opA" name="Pergunta1">
+                    <label for="perg1opA">Duque de Caxias</label><br>
+                </form>
+            </section>
+            <!--Pergunta 2 - texto-->
+            <section>
+                <h2>Pergunta 2: No RJ o monumento mais conhecido é o: </h2>
+                <form>
+                    <input type="text" id="Perg2" name="Pergunta2" placeholder="Digite sua resposta...">
+                    
+                </form> 
+
+            </section>
+            
+            <!--Pergunta 3 - senha -->
+            <section>
+                <h2> Pergunta 3: Em qual lugar do RJ você mora/moraria?</h2>
+                <form>
+                    <input type="password" id= perg3 name=" Pergunta 3" placeholder="Digite aqui...">
+                </form>
+
+
+            </section>
+            <!--Pergunta 4 - Data -->
+            <section>
+                <h2> Pergunta 4: Quando o Rio de Janeiro foi Fundado</h2>
+                <form>
+                    <input type="date" id="perg4" name="pergunta 4">
+                </form>
+
+
+            </section>
+            <!-- Pergunta 5 - Seleção multipla -->
+            <section>
+                <h2> Pergunta 5: Quais dessas praias ficam no Rio de Janeiro ?</h2>
+                <form>
+                    <input type="checkbox" id="perg5" name="pergunta 5" value="Praia da Barra" <label for="perg5">Praia da Barra</label><br>
+                    <input type="checkbox" id="perg5" name="pergunta 5" value="Praia de Grumari" <label for="perg5">Praia de Grumari</label><br>
+                    <input type="checkbox" id="perg5" name="pergunta 5" value="Praia de Ipanema" <label for="perg5">Praia de Ipanema</label><br>
+                    <input type="checkbox" id="perg5" name="pergunta 5" value="Praia do Recreio" <label for="perg5">Praia de Sepetiba</label><br>
+                </form>
+            </section>
+            <!-- Pergunta 6 - Upload -->
+            <section>
+                <h2> Pergunta 6: Você tem alguma foto tirada por você da Cidade Maravilhosa </h2>
+                <form> 
+                    <input type="file" id="perg6" name=" pergunta 6">
+                </form>
+
+            </section>
+            <!--Pergunta 7 - imagem -->
+            <section>
+                <h2> Pergunta 7: Qual ponto turistico está representado na imagem? </h2>
+                <figure>
+                <img src="lapa.jpeg" alt="ponto turistico RJ"><br>
+                <figcaption>Figura1: Ponto turistico RJ</figcaption>
+            </figure>
+                <input type="text" id="perg8" name="Pergunta8" placeholder="Digite a resposta">
+            </section>
+           
+
+            
+
+            <section> 
+                <h2> Tabela de pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <td>0-4</td>
+                            <td>Marque já sua viagem para conhecer mais de pertinho</td>
+                        </tr>
+                        <tr> 
+                            <td>5-6</td>
+                            <td>Conhece legal, merece se mimar, pode comprar a passagem  </td>
+                        </tr>
+                        <tr> 
+                            <td>7</td>
+                            <td> Selo cria carioca brabo</td>
+                        </tr>
+                    </table>
+                </tbody>
+            <tr> 
+            </section>
+
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ter as respostas do quiz</summary>
+                <ol>
+                    <li>Rio de Janeiro</li>
+                    <li>Cristo Redentor</li>
+                    <li> Resposta pessoal</li>
+                    <li>01/03/1965</li>
+                    <li>Todas</li>
+                    <li>O arquivo deve ser em .jpeg</li>
+                    <li>Arcos da Lapa</li>
+                </ol>
+            </details>
+            </section>
+            <!--Feedback-->
+            <section>
+                <h2>Nos dê seu feedback</h2>
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                <form>
+                    <label for="name">Nome</label>
+                    <input text="text" id="name" name="name"><br>
+                    <label for="name">Email</label>
+                    <input email="email" id="Email" name="Email"><br>
+                    <label for="comentarios">comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios"
+                    rows="5" cols="60" placeholder="Digite aqui seu comentário">
+                    </textarea><br>
+                    <button onclick="alert('FEEDBACK ENVIADO')"> Envie seu feedback </button>
+                </fieldset>
+                </form>
+
+            </section>
+
+        </main>
+        <footer>
+            <p class="paragrafo-tooter"> Quiz sobre o Rio de Janeiro. Todos os direitos reservados.<br>
+                Para mais detalher sobre a autora <a href="https://www.linkedin.com/in/julia-nunes-37786223a/" target="_blank"> Clique aqui</a></p>
+        </footer>
+    </body>
+
+
+</html>
